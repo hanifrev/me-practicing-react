@@ -6,8 +6,10 @@ export default function Bands({ name, origin }) {
   // ]);
   return (
     <div className="BandClass">
-      <h2>{name.toUpperCase()}</h2>
-      <h2>{origin}</h2>
+      <br></br>
+      <h1>{name.toUpperCase()}</h1>
+      <h3>{origin}</h3>
+      <br></br>
     </div>
   );
 }

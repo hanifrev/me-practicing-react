@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
+  background-image: url(https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -313,12 +313,32 @@ header {
   }
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+
 .BandClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #673ab7;
+  margin: -25px 0 -35px 0;
+  padding: 10px 0 -50px 0;
+  justify-content: space-between;
+  line-height: 25px;
 }
 
 .Pic {
-  display: flex;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 30%;
+  height: 30%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media (min-width: 576px) {
 }

@@ -22,15 +22,44 @@ const App = () => {
   //   }),
   // ]);
   return (
-    <div>
-      <h1>Progressive Nations Tour</h1>
+    <div className="main-container">
+      {/* <h1>Progressive Nations Tour</h1> */}
       <Bands name="Dream Theater" origin="USA" />
-      <Bands name="Opeth" origin="Sweden" />
-      <Bands name="Between The Buried and Me" origin="USA" />
       <OpethPic
-        src="https://upload.wikimedia.org/wikipedia/en/e/e1/Opeth_MAYH.jpg"
+        src="https://dreamtheater.net/wp-content/uploads/2018/12/48378205_10155716752697181_7965675337637953536_o.jpg"
+        alt=""
+      />
+
+      <Bands name="Opeth" origin="Sweden" />
+      <OpethPic
+        src="https://townsquare.media/site/366/files/2019/07/Opeth2016d.jpg?w=980&q=75"
         alt="---"
       />
+
+      <Bands name="Between The Buried and Me" origin="USA" />
+      <OpethPic
+        src="https://kulturhaeuser-production.s3.eu-central-1.amazonaws.com/uploads/artist/image/5728/Between_the_buried_and_me.jpg"
+        alt=""
+      />
+
+      <Bands name="Sons of Apollo" origin="USA" />
+      <OpethPic
+        src="https://i0.wp.com/wphore.id/musikeras/wp-content/uploads/sites/6/2017/08/Sons-Of-Apollo-2017-edit2.png?fit=1200%2C649&quality=95&ssl=1"
+        alt=""
+      />
+
+      <Bands name="Haken" origin="United Kingdom" />
+      <OpethPic
+        src="https://cdn3.whatculture.com/images/2018/09/073c97c17aca354d-600x338.jpg"
+        alt=""
+      />
+
+      <Bands name="Plini" origin="Australia" />
+      <OpethPic
+        src="https://www.ultimate-guitar.com/static/article/news/2/87282_0_wide_ver1552046298.jpg"
+        alt=""
+      />
+
       <TourDates date="TBA" vanue="TBA" city="TBA" />
       {/* <SomeAPI api="https://www.thesportsdb.com/api/v1/json/1/eventslast.php?id=133609" /> */}
     </div>
@@ -61,15 +90,15 @@ render(React.createElement(Hongat), document.getElementById("pale"));
 
 // render(React.createElement(Dates), document.getElementById("dates"));
 
-const OpethPics = () => {
-  return (
-    <div>
-      <OpethPic
-        src="https://townsquare.media/site/366/files/2019/07/Opeth2016d.jpg?w=980&q=75"
-        alt="---"
-      />
-    </div>
-  );
-};
+// const OpethPics = () => {
+//   return (
+//     <div>
+//       <OpethPic
+//         src="https://townsquare.media/site/366/files/2019/07/Opeth2016d.jpg?w=980&q=75"
+//         alt="---"
+//       />
+//     </div>
+//   );
+// };
 
-render(<OpethPics />, document.getElementById("opt"));
+// render(<OpethPics />, document.getElementById("opt"));
