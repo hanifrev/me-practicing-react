@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background-image: url(https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIzsjED2peJo0WWryzSnaD0Xe0j14AwMEheg&usqp=CAU);
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -325,20 +325,49 @@ header {
   flex-direction: column;
   align-items: center;
   color: #673ab7;
-  margin: -25px 0 -35px 0;
+  margin: 25px 0 -20% 0;
   padding: 10px 0 -50px 0;
   justify-content: space-between;
-  line-height: 25px;
+  line-height: 1px;
+  font-weight: lighter;
+}
+
+.BandClass h2 {
+  font-size: 1.3em;
+}
+.BandClass h3 {
+  font-size: 0.8em;
 }
 
 .Pic {
-  /* display: flex; */
   /* flex-wrap: wrap; */
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25%;
+  margin-top: 10px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto 0 auto;
 }
 
 @media (min-width: 576px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .BandClass {
+  }
+  .Pic {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20%;
+  }
 }
