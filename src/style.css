@@ -357,17 +357,32 @@ header {
   margin: 0 auto 0 auto;
 }
 
+.main-header {
+  text-align: center;
+  color: #ffffff;
+}
+.main-header h1 {
+  font-size: 20px;
+}
+
 @media (min-width: 576px) {
   .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
   }
+
   .BandClass {
   }
+
   .Pic {
     width: 80%;
     height: auto;
     margin-bottom: 20%;
+    align-content: center;
+  }
+
+  .main-header h1 {
+    font-size: 30px;
   }
 }
