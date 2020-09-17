@@ -348,13 +348,16 @@ header {
   margin-bottom: 25%;
   margin-top: 10px;
 }
+.Pic:hover {
+  transform: scale(1.1);
+}
 
 .dates {
   display: flex;
   flex-direction: column;
   color: aliceblue;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 1.5em auto 0 auto;
 }
 
 .main-header {
@@ -363,6 +366,34 @@ header {
 }
 .main-header h1 {
   font-size: 20px;
+}
+
+.button1 {
+  display: flex;
+  padding: 0.3em 3em;
+  border: 0.1em solid #ffffff;
+  background-color: #e97407;
+  margin: 1.5em auto 0 auto;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+.button1 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.button1 a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.button1:hover {
+  color: #000000;
+  background-color: #e9c007;
 }
 
 @media (min-width: 576px) {

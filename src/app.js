@@ -5,6 +5,7 @@ import TourDates from "./TourDates";
 import OpethPic from "./OpethStuff";
 import SomeAPI from "./API-Stuff";
 import TheHeader from "./main-header";
+import Ticket from "./get-ticket";
 
 const App = () => {
   // return React.createElement("div", {}, [
@@ -96,6 +97,9 @@ const App = () => {
       </div>
       <div>
         <TourDates date="TBA" vanue="TBA" city="TBA" />
+      </div>
+      <div>
+        <Ticket />
       </div>
     </div>
   );
