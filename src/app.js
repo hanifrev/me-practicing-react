@@ -6,6 +6,8 @@ import OpethPic from "./OpethStuff";
 import SomeAPI from "./API-Stuff";
 import TheHeader from "./main-header";
 import Ticket from "./get-ticket";
+import SearchParams from "./SearchParams";
+import Counter from "./Counter";
 
 const App = () => {
   // return React.createElement("div", {}, [
@@ -29,7 +31,6 @@ const App = () => {
         <TheHeader />
       </div>
       <div className="main-container">
-        {/* <h1>Progressive Nations Tour</h1> */}
         <Bands
           name="Dream Theater"
           origin="USA"
@@ -98,8 +99,11 @@ const App = () => {
       <div>
         <TourDates date="TBA" vanue="TBA" city="TBA" />
       </div>
+
       <div>
+        <SearchParams />
         <Ticket />
+        <Counter />
       </div>
     </div>
   );
