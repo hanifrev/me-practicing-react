@@ -240,6 +240,24 @@ header {
   margin-right: 15px;
 }
 
+.tdl {
+  color: #ffffff;
+}
+.tdl label {
+  display: block;
+  color: #ffffff;
+}
+.tdl input {
+  display: block;
+}
+.tdl button {
+  display: block;
+}
+
+.contain {
+  color: white;
+}
+
 @media only screen and (max-width: 1129px) {
   header {
     display: flex;

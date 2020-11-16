@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import Bands from "./Bands";
 import TourDates from "./TourDates";
 import OpethPic from "./OpethStuff";
@@ -8,6 +9,8 @@ import TheHeader from "./main-header";
 import Ticket from "./get-ticket";
 import SearchParams from "./SearchParams";
 import Counter from "./Counter";
+import Qwerty from "./Qwerty";
+import ConT from "./ConT";
 
 const App = () => {
   // return React.createElement("div", {}, [
@@ -98,12 +101,14 @@ const App = () => {
       </div>
       <div>
         <TourDates date="TBA" vanue="TBA" city="TBA" />
+        <Qwerty />
       </div>
 
       <div>
         <SearchParams />
         <Ticket />
         <Counter />
+        <ConT />
       </div>
     </div>
   );
